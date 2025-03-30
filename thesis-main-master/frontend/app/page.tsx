@@ -41,18 +41,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section - Improved Spacing */}
-      <section className="py-8">
+      {/* Features Section - Updated to match the image */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto space-y-3">
+          <div className="flex flex-col items-center gap-4 max-w-5xl mx-auto">
             {/* First row */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <div className="bg-blue-600 text-white py-3 px-5 rounded-lg text-center">
+            <div className="flex flex-col md:flex-row w-full gap-4">
+              <div className="bg-blue-600 text-white py-3 px-6 rounded md:w-1/2 text-center">
                 <span className="font-medium">
                   Every donation tracked on-chain
                 </span>
               </div>
-              <div className="bg-blue-600 text-white py-3 px-5 rounded-lg text-center">
+              <div className="bg-blue-600 text-white py-3 px-6 rounded md:w-1/2 text-center">
                 <span className="font-medium">
                   Instant withdrawals, no delays/ middlemen
                 </span>
@@ -60,24 +60,22 @@ export default function Home() {
             </div>
 
             {/* Second row */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-3">
-              <div className="bg-blue-600 text-white py-3 px-5 rounded-lg text-center md:col-span-8">
+            <div className="flex flex-col md:flex-row w-full gap-4">
+              <div className="bg-blue-600 text-white py-3 px-6 rounded md:w-2/3 text-center">
                 <span className="font-medium">
                   Full transparency with smart contract-powered donations
                 </span>
               </div>
-              <div className="bg-blue-600 text-white py-3 px-5 rounded-lg text-center md:col-span-4">
+              <div className="bg-blue-600 text-white py-3 px-6 rounded md:w-1/3 text-center">
                 <span className="font-medium">Open and trusted</span>
               </div>
             </div>
 
             {/* Bottom row */}
-            <div className="flex justify-center">
-              <div className="bg-blue-600 text-white py-3 px-6 rounded-lg text-center w-full md:w-auto">
-                <span className="font-medium">
-                  Empowering creators, charities & communities to thrive
-                </span>
-              </div>
+            <div className="bg-blue-600 text-white py-3 px-6 rounded w-full text-center mt-2">
+              <span className="font-medium">
+                Empowering creators, charities & communities to thrive
+              </span>
             </div>
           </div>
         </div>
