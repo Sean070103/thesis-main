@@ -10,11 +10,8 @@ import {
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { Search } from 'lucide-react';
 import Link from 'next/link';
-import { useState } from 'react';
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className='sticky top-0 z-50 w-full border-b border-blue-900/20 bg-black/80 backdrop-blur-sm'>
       <div className='container flex h-16 items-center justify-between px-4'>

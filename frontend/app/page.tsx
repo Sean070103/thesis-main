@@ -159,21 +159,21 @@ export default function Home() {
                     className='h-48 w-full object-cover'
                   />
                   <div className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4'>
-                    <p className='text-lg font-medium'>Hi! I'm Jayjay</p>
+                    <p className='text-lg font-medium'>{`Hi! I'm Jayjay`}</p>
                   </div>
                 </div>
                 <div className='p-4 text-sm'>
                   <p>
-                    Jayjay is my wonder dog. Every morning, he sits quietly by
+                    {`Jayjay is my wonder dog. Every morning, he sits quietly by
                     his bowl waiting for his breakfast. He's very smart and
                     loves to play fetch. He lost his rear leg in an accident,
                     but that doesn't slow him down. He runs and plays just like
-                    any other dog.
+                    any other dog.`}
                   </p>
                   <p className='mt-2'>
-                    As a concerned citizen who has shared countless resources
+                    {`As a concerned citizen who has shared countless resources
                     with strays, I'm now collecting funds for a custom-made
-                    prosthetic leg designed especially for dogs like Jayjay.
+                    prosthetic leg designed especially for dogs like Jayjay.`}
                   </p>
                 </div>
               </CardContent>
